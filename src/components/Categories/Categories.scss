@@ -1,0 +1,34 @@
+.categories-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 200px;
+  margin: 2.5rem 0;
+  user-select: none;
+  h3 {
+  }
+  .wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    .category {
+      margin: 1rem 0 0.5rem 0;
+      width: 6rem;
+      text-align: center;
+      cursor: pointer;
+      &:not(:last-child) {
+        margin: 1rem 0 0 0;
+      }
+    }
+    & .active {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 15px;
+      color: rgb(230, 230, 230);
+      background-color: orange;
+      height: 25px;
+    }
+  }
+}

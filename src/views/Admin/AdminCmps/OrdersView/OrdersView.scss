@@ -1,0 +1,58 @@
+.orders-view {
+  display: flex;
+  width: 100%;
+  direction: ltr;
+
+  .orders-view-container {
+    flex: 6 1;
+    .orders-view-wrapper {
+      height: calc(100vh - 6rem);
+      padding: 20px;
+      position: relative;
+      top: 4rem;
+
+      .orders-view-header {
+        width: 100%;
+        font-size: 24px;
+        color: gray;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+  }
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+
+  .cellWithImg {
+    display: flex;
+    align-items: center;
+
+    .cellImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+  }
+}

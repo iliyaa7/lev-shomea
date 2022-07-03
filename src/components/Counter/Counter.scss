@@ -1,0 +1,13 @@
+.counter {
+  background-color: #68afde;
+  border-radius: 5px;
+  color: white;
+  p {
+    background-color: white;
+    color: black;
+    border: 3px solid #68afde;
+  }
+  svg {
+    cursor: pointer;
+  }
+}
